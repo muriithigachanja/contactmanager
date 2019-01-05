@@ -20,7 +20,7 @@ class AddContact extends Component {
     if (name === '') {
       this.setState({ errors: { name: 'Name is required' } });
       return;
-    }
+    }vvv
 
     if (email === '') {
       this.setState({ errors: { email: 'Email is required' } });
